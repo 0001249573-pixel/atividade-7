@@ -1,0 +1,27 @@
+namespace atividade_lista_7
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int n;
+
+            Console.WriteLine("bom dia ");
+            Console.WriteLine("escreva um numro");
+            if ()
+                Console.WriteLine("digite um numero");
+
+            for (int i = 1; i <= 10,i++) ;
+
+            int resultado =numero*i;
+            Console.WriteLine($"{numero}x{i}={resultado}");
+
+
+
+
+
+
+
+        }
+    }
+}
