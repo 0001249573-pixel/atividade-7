@@ -1,0 +1,28 @@
+using System;
+namespace Console_1
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Solicita o número ao usuário
+            Console.Write("Digite um número inteiro positivo: ");
+
+            // Lê e tenta converter a entrada para um número inteiro
+            if (int.TryParse(Console.ReadLine(), out int numero) && numero >= 0)
+            {
+                Console.WriteLine($"\nNúmeros pares entre 0 e {numero}:");
+
+                // Laço de repetição que avança de 2 em 2
+                for (int i = 0; i <= numero; i += 2)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Entrada inválida. Por favor, digite um número inteiro maior ou igual a zero.");
+            }
+        }
+    }
+}
